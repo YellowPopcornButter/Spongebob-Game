@@ -97,7 +97,7 @@ class Player:
         pygame.draw.circle(win, (83, 138, 148), (int(self.x + 10), int(self.y + 10)), 5)
         pygame.draw.circle(win, (83, 138, 148), (int(self.x + 26), int(self.y + 10)), 5)
 
-def move(self, keys):
+    def move(self, keys):
         if keys[pygame.K_LEFT]:
             self.x -= 5
         if keys[pygame.K_RIGHT]:
